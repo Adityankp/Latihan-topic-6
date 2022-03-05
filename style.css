@@ -1,0 +1,23 @@
+.red-box {
+    background-color: red;
+    color: white;
+}
+.green-box {
+    background-color: green;
+    color: white;
+}
+.purple-box {
+    background-color: purple;
+    color: white;
+}
+ 
+.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+
+    > .col,
+    > [class*="col-"]{
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
